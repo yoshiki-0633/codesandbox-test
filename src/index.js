@@ -35,3 +35,10 @@
 
 // val4.name = "兆生";
 // console.log(val4);
+
+// //コンソール文字列
+
+// const name = "yoshi";
+// const age = 22;
+// const message = `私の名前は${name}です。私の年齢は${age}です`;
+// console.log(message);
