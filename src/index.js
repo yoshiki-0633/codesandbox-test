@@ -42,3 +42,27 @@
 // const age = 22;
 // const message = `私の名前は${name}です。私の年齢は${age}です`;
 // console.log(message);
+
+// //アロー関数
+
+// const func2 = (str) => {
+//   return str;
+// };
+
+// console.log(func2("func2です"));
+
+//map、filter
+
+const nameArr = ["yo", "ko", "si"];
+// for (let index = 0; index < nameArr.length; index++) {
+//   console.log(nameArr[index]);
+// }
+
+const nameArr2 = nameArr.map((name) => {
+  return name;
+});
+console.log(nameArr2);
+
+nameArr.map((name) => {
+  console.log(name);
+});
